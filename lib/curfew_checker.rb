@@ -38,6 +38,7 @@ def deluxe_curfew_checker(time)
 else time <= 11 && time == 9
   "You have 2 hour(s) left to keep having fun!"
 end
+end
 
 def platinum_curfew_checker(current_time, curfew_time)
   # code goes here
