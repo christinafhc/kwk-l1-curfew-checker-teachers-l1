@@ -1,5 +1,12 @@
 def simple_curfew_checker(time)
-  # code goes here
+  # code goes here 
+  if time == 11
+   "You're in trouble! Better get home quick!"
+ elsif time > 11
+   "You're in trouble! Better get home quick!"
+ else time < 11
+   puts "nil" 
+ end 
 end
 
 def curfew_checker(time)
