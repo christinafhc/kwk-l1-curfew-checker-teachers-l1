@@ -21,7 +21,12 @@ end
 end
 
 def complex_curfew_checker(time)
-  # code goes here
+  if time == 11
+    "Time to apparate"
+  elsif time > 11
+  "You're in trouble! Better get home quick!"
+else time < 11
+  "Keep having fun!"
 end
 
 def deluxe_curfew_checker(time)
