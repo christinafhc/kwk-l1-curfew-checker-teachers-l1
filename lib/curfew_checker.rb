@@ -18,6 +18,7 @@ def curfew_checker(time)
 else time < 11
   "Keep having fun!"
 end
+end
 
 def complex_curfew_checker(time)
   # code goes here
